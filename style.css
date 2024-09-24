@@ -741,7 +741,9 @@ span.mobile-menu-title {
 }
 
 .logo {
-    padding-top: 25px;
+    width: 236px;
+    height: auto;
+    padding-top: 44px;
     float: left;
     margin-bottom: 25px;
 }

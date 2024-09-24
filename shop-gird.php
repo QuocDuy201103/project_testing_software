@@ -50,22 +50,6 @@ include 'header.php';
 						</ul>
 					</div>
 					<!-- SINGLE SIDEBAR ENABLED FILTERS END -->
-
-					<!-- SINGLE SIDEBAR SIZE START -->
-				</div>
-				<!-- PRODUCT-LEFT-SIDEBAR END -->
-			</div>
-			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-				<div class="right-all-product">
-					<!-- PRODUCT-CATEGORY-HEADER END -->
-					<div class="product-category-title">
-						<!-- PRODUCT-CATEGORY-TITLE START -->
-						<h1>
-							<span class="cat-name"><?php echo $resultCat['tenLoai']; ?></span>
-						</h1>
-						<!-- PRODUCT-CATEGORY-TITLE END -->
-					</div>
-
 					<?php
 					// Các phần đầu của mã không thay đổi
 					
@@ -85,6 +69,22 @@ include 'header.php';
 							</option>
 						</select>
 					</form>
+					<!-- SINGLE SIDEBAR SIZE START -->
+				</div>
+				<!-- PRODUCT-LEFT-SIDEBAR END -->
+			</div>
+			<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
+				<div class="right-all-product">
+					<!-- PRODUCT-CATEGORY-HEADER END -->
+					<div class="product-category-title">
+						<!-- PRODUCT-CATEGORY-TITLE START -->
+						<h1>
+							<span class="cat-name"><?php echo $resultCat['tenLoai']; ?></span>
+						</h1>
+						<!-- PRODUCT-CATEGORY-TITLE END -->
+					</div>
+
+
 				</div>
 				<!-- ALL GATEGORY-PRODUCT START -->
 				<div class="all-gategory-product">
@@ -132,7 +132,7 @@ include 'header.php';
 
 										</li>
 										<!-- SINGLE ITEM END -->
-									<?php
+										<?php
 									}
 								}
 							}

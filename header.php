@@ -28,7 +28,7 @@ $cat = new category();
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title><?= isset($pageTitle) ? $pageTitle : "DÉP MWC - Hệ thống dép chính hãng" ?></title>
+  <title><?= isset($pageTitle) ? $pageTitle : "SUPERSPORT - Hệ thống giày chính hãng" ?></title>
   <?php if (function_exists('customPageHeader')) {
     customPageHeader();
   } ?>
@@ -137,7 +137,7 @@ $cat = new category();
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
           <div class="header-left-menu">
             <div class="welcome-info">
-              CHÀO MỪNG ĐẾN VỚI <span>MWC</span>
+              CHÀO MỪNG ĐẾN VỚI <span>SUPERSPORT</span>
             </div>
 
           </div>
@@ -177,7 +177,7 @@ $cat = new category();
         <div class="col-sm-12">
           <!-- LOGO START -->
           <div class="logo">
-            <a href="index.php"><img src="img/logo.png" alt="MVC logo" /></a>
+            <a href="index.php"><img src="img/LOGO_SSP_RGB-02_c46e0135-659a-49a2-9b37-6afebf1112e4.webp" alt="MVC logo" /></a>
           </div>
           <!-- LOGO END -->
           <!-- CATEGORYS-PRODUCT-SEARCH START -->
