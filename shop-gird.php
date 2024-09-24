@@ -50,25 +50,7 @@ include 'header.php';
 						</ul>
 					</div>
 					<!-- SINGLE SIDEBAR ENABLED FILTERS END -->
-					<?php
-					// Các phần đầu của mã không thay đổi
 					
-					// Thêm đoạn mã sau trước khi lấy danh sách sản phẩm
-					
-
-					$sortOption = isset($_POST['sortby']) ? $_POST['sortby'] : 'asc'; // Lấy giá trị từ form chọn sắp xếp
-					$prodList = $prod->getAllProductbyCatSort($resultCat['maLoai'], $sortOption);
-
-					// Form để chọn cách sắp xếp
-					?>
-					<form method="post" action="">
-						<select name="sortby" onchange="this.form.submit()">
-							<option value="low" <?php echo $sortOption === 'asc' ? 'selected' : ''; ?>>Giá: Thấp đến Cao
-							</option>
-							<option value="high" <?php echo $sortOption === 'desc' ? 'selected' : ''; ?>>Giá: Cao đến Thấp
-							</option>
-						</select>
-					</form>
 					<!-- SINGLE SIDEBAR SIZE START -->
 				</div>
 				<!-- PRODUCT-LEFT-SIDEBAR END -->
