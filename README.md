@@ -1,9 +1,10 @@
-#Testing Software
-#Members
--Vo Quoc Duy
--Truong Quang Hung
--Truong Tan Tai
--Le Trong Nhan
+# web2general
+ Web 2
+
+Members:
+-Lê Đức Nam 
+-Lê Trọng Nhân
+-Phạm Thanh Vương
 
 
 
