@@ -32,12 +32,12 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
          header("location: index.php");
       } else {
          // Tài khoản bị khóa, xuất hiện thông báo lỗi
-         $_SESSION['success'] = 'TÀI KHOẢN ĐÃ BỊ KHÓA!!!';
+         $_SESSION['success'] = 'Tài khoản đã bị khóa!';
          header("location: registration.php");
       }
    } else {
       // Nếu không tìm thấy thì xuất hiện thông báo lỗi
-      $_SESSION['success'] = 'SAI THÔNG TIN ĐĂNG NHẬP!!!';
+      $_SESSION['success'] = 'Sai thông tin đăng nhập!';
       header("location: registration.php");
    }
 }
